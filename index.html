@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunnydale School</title>
+  <style>
+    /* General Reset and Base Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f9fd;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* Step 1: Enhance Page Title */
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #1E90FF;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #c0dfff;
+    }
+
+    /* Step 2: Unique h2 Styles */
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    #mission {
+      color: #32CD32;
+    }
+
+    #upcoming-events {
+      color: #FFA07A;
+      background-color: #FFFFE0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    #contact {
+      color: #20B2AA;
+    }
+
+    /* Upcoming Events Styling */
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      border-left: 4px solid #ccc;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    /* Step 5: Outdoor event styling */
+    .outdoor {
+      background-color: #AFEEEE;
+      padding: 5px;
+      border: 1px solid #B0E0E6;
+    }
+
+    /* Step 7: Contact Box Styling */
+    .section {
+      background-color: #f8f3f3;
+      padding: 10px 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+      margin-top: 10px;
+    }
+
+    a {
+      color: #1E90FF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Optional: Add media query for better mobile experience */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      li {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Title -->
+  <h1>Sunnydale School</h1>
+
+  <!-- Mission Statement -->
+  <h2 id="mission">Mission Statement</h2>
+  <p>At Sunnydale School, we strive to create a nurturing environment that encourages academic excellence, creativity, and community engagement.</p>
+
+  <!-- Upcoming Events -->
+  <h2 id="upcoming-events">Upcoming Events</h2>
+  <ul>
+    <li data-event-type="indoor" title="Event Type: Indoor">
+      Science Fair - <span style="font-weight: bold; color: red;">June 10</span>
+    </li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+      Art Exhibition - <span style="font-weight: bold; color: red;">June 15</span>
+    </li>
+    <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+      Sports Day - <span style="font-weight: bold; color: red;">June 20</span>
+    </li>
+  </ul>
+
+  <!-- Contact Us -->
+  <h2 id="contact">Contact Us</h2>
+  <div class="section">
+    <p>
+      Email:
+      <a href="mailto:info@sunnydale.edu" title="Click to copy email">info@sunnydale.edu</a>
+    </p>
+    <p>
+      Phone:
+      <a href="tel:+1234567890" title="Click to copy phone number">+1 (234) 567-890</a>
+    </p>
+    <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+  </div>
+
+</body>
+</html>
